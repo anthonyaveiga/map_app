@@ -1,0 +1,14 @@
+{
+  "name": "app_map",
+  "dependencies": {
+    "@geoext/geoext": "^4.1.0",
+    "ol": "7.2.2"
+  },
+  "devDependencies": {
+    "vite": "^3.2.3"
+  },
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build"
+  }
+}
