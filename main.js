@@ -1,4 +1,4 @@
-import 'ol/ol.css';
+//import 'ol/ol.css';
 import Map from 'ol/Map';
 import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
@@ -11,7 +11,7 @@ const layers = [
         source: new OSM(),
     }),
     new ImageLayer({
-        extent: [-80.10207827003072, -0.115022370607746, -78.42556196500627, 1.4548059377978537],
+        extent: [-80.10207827003072, -0.115022370607746, -7842556196500627, 1.4548059377978537],
         source: new ImageWMS({
             url: 'http://194.163.139.251:8080/geoserver/wms',
             params: {
